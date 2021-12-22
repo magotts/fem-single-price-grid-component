@@ -23,12 +23,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* box-shadow: 10px 5px 5px black; */
 }
 
 .join {
-border-radius: 5px;
 padding: 100px;
-background: grey;
+border-radius: 10px 10px 0 0;
 }
 
 .joincommunity {
@@ -46,4 +46,62 @@ background: grey;
 
 .monthly {
   background-color: var(--cyan);
+  color: var(--light-gray);
+  border-radius: 0 0 0 10px;
+  padding: 1.5rem;
+  line-height: 2.5rem;
 }
+
+.amount {
+  font-size: 30px;
+}
+
+.btn {
+  color: var(--light-gray);
+  background-color: var(--bright-yellow);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.whyus {
+  background-color: hsl(179, 52%, 59%);
+  color: var(--light-gray);
+  border-radius: 0 0 10px 0;
+  padding: 30px;
+}
+
+.whyus h3 {
+  padding-bottom: 15px;
+}
+
+.whyus li {
+  list-style: none;
+  font-size:  13px;
+  line-height: 1.2rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .monthly {
+    border-radius: 0;
+
+  }
+  .whyus {
+    border-radius: 0 0 10px 10px;
+
+  }
+
+  }
