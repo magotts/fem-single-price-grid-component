@@ -43,16 +43,23 @@ body {
   color: grey;
   background-color: lightcyan;
   width: 514px;
+  font-weight: 700;
 }
 
 .joincommunity {
   color: var(--cyan);
   font-size: 18px;
   padding-bottom: 10px;
+  font-weight: 700;
 }
 
 .hasslefree {
   color: var(--bright-yellow);
+  padding-bottom: 10px;
+}
+
+.gain {
+  color: rgb(179, 165, 165);
 }
 
 .secondbox {
